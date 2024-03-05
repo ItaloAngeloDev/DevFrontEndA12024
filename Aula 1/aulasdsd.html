@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página da Descomplica Universidade Digital</title>
+    <!-- Incluir os arquivos CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados para o padrão de cores da Descomplica Universidade Digital */
+        /* pesquisar padrão de cor -  https://imagecolorpicker.com/pt-pt */
+        body {
+            background-color: #f0f0f0;
+        }
+
+        .descomplica-header {
+            background-color: #00e88f;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .descomplica-logo {
+            max-width: 140px;
+            margin-bottom: 10px;
+        }
+
+        .descomplica-footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .descomplica-table {
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="descomplica-header">
+        <img src="./desco1.png" alt="Logo da Descomplica Universidade Digital" class="descomplica-logo">
+        <h1>Descomplica Universidade Digital</h1>
+        <p>Descomplicando a Tecnologia</p>
+    </div>
+
+    <div class="container mt-4">
+        <h2 class="text-center">Tabela de Alunos de Tecnologia</h2>
+        <table class="table table-striped descomplica-table mx-auto">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Curso</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>João da Silva</td>
+                    <td>Engenharia de Software</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Maria Souza</td>
+                    <td>Ciência de Dados</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Pedro Oliveira</td>
+                    <td>Desenvolvimento Web</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Rogerio Cardoso</td>
+                    <td>ADS- Análise e Desenvolvimento de Sistemas</td>
+                </tr>
+                <!-- Adicione mais linhas conforme necessário -->
+            </tbody>
+        </table>
+    </div>
+
+    <div class="descomplica-footer text-center">
+        <p>&copy; 2023 Descomplica Universidade Digital. Todos os direitos reservados.</p>
+    </div>
+
+    <!-- Incluir os arquivos JavaScript do Bootstrap (opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        console.log("Bem-vindo à Descomplica Universidade Digital!");
+    </script>
+</body>
+
+</html>
